@@ -43,6 +43,7 @@ switch (num)
         double tvet = Convert.ToDouble(Math.Sqrt(otvet));
         Console.WriteLine($"Ответ: {tvet}");
         break;
+        
     case 3:
         Console.WriteLine("Программа которая выдает таблицу кубов от 1 до n:");
         Console.Write("Введите число:");
