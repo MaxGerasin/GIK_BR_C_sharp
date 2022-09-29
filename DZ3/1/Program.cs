@@ -10,7 +10,7 @@ switch (num)
     case 1:
         Console.WriteLine("Является ли оно палиндромом ?");
         Console.Write("Введте пятизначное число:");
-        int fiveDig = Convert.ToInt32(Console.ReadLine()); // 12321
+        int fiveDig = Convert.ToInt32(Console.ReadLine());
         if (fiveDig < 10000 || fiveDig > 99999)
             Console.Write("Введено не пятизначное число");
         else
